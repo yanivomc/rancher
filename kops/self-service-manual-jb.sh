@@ -2,7 +2,7 @@
 source ~/.bash_profile
 # CLIENT_NAME="amdocs-root"
 #CLIENT_NAME="safecharge-qa"
-CLIENT_NAME="asafjb1-jb"
+CLIENT_NAME="oracle2020-jb"
 NUMBER_CLUSTERS=$1
 VPC="vpc-d7d6e4b1" # jb account
 SUBNET_ID_A="subnet-1042eb4a" # jb account
@@ -11,7 +11,7 @@ DNS_ZONE=Z3S7L7JR4B7VHI
 # VPC="vpc-07bf8669459cf1c3c"
 # SUBNET_ID_A="subnet-0b9c968b32e1b1369"
 #for i in $1
-for i in {13..16}
+for i in {1..1}
 
 do
     export NAME="$CLIENT_NAME-$i.jb.io"
