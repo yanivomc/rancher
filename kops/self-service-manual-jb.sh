@@ -30,7 +30,7 @@ do
                 --node-size=t2.medium \
                 --zones $ZONES \
                 --topology public \
-                --node-count=3 \
+                --node-count=1 \
                 --master-count=1 \
                 --master-volume-size=16 \
                 --node-volume-size=16 \
